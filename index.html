@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DZ 5</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+        .wrapper > div{
+            display: flex;
+            flex-direction: column;
+        }
+        .usd{
+            margin-top: 50px;
+        }
+        .cny{
+            margin-top: 50px;
+        }
+        input{
+            padding:  10px ,20px;
+        }
+        .fl{
+            width: 20px;
+            height: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="som">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/c/c7/Flag_of_Kyrgyzstan.svg" alt="" class="fl">
+            <label for="som">Som</label>
+            <input id="som" type="number">
+        </div>
+        <div class="usd">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Flag_of_the_United_States.svg/1200px-Flag_of_the_United_States.svg.png" alt="" class="fl">
+            <label for="usd">Usd</label>
+            <input id="usd" type="number">
+        </div>
+        <div class="cny">
+            <img src="" alt="" class="fl">
+            <label for="cny">Cny</label>
+            <input id="cny" type="number">
+        </div>
+    </div>
+</body>
+<script src="app.js"></script>
+</html>
